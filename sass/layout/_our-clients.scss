@@ -12,17 +12,14 @@
     display: flex;
     margin-bottom: 94px;
 }
-.client-link {
+
+  
+  .client-link {
+
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .client-link:not(:last-child) {
-    margin-right: 30px;
-  }
 
-  .client-link {
     width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
@@ -37,6 +34,10 @@
     fill: var(--accent-color);
     background-color: white;
     border-color: var(--accent-color);
+        }
+
+    &:not(:last-child) {
+    margin-right: 30px;
         }
   }
   
